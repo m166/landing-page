@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Open Sans';
+}
+
+a:link { 
+ text-decoration:none;
+ color: #cde9d9;
+} 
+
+a:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+strong {
+    margin: 0px 2px;
+}
+
+
+/* bootstrap fixed */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1100px !important;
+    }
+}

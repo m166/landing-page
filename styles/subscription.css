@@ -1,0 +1,49 @@
+.subscription-box {
+    display: flex;
+    justify-content: center;
+    height: 310px;
+    background-color: #41c07d;
+}
+
+.subscription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.subscription-title {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 45px;
+}
+
+.subscription-text {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 370px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.subscription-text::-webkit-input-placeholder {
+    color: #41c07d;
+}
+
+.subscription-input {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.subscription-button {
+    position: absolute;
+    right: 0px;
+    border: none;
+    background: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}

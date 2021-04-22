@@ -1,0 +1,36 @@
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    background-color: #42bd7c;
+
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+.nav-item-box {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    font-size: 15pt;
+    color: #cde9d9;
+    margin-right: 42px;
+}
+
+.social-media-box{
+    display: flex;
+}
+
+.social-media {
+    margin-left: 20px;
+}

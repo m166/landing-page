@@ -1,0 +1,18 @@
+.featured-on-box {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-on {
+    width: 275px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-on:hover {
+    background-color: #eeeeee;
+}

@@ -1,0 +1,105 @@
+.about-box {
+    height: 805px;
+    background-color:#faf9f9 ;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    padding: 100px 0px;
+    display: flex;
+}
+
+.iphone-box {
+    width: 575px;
+    display: flex;
+    justify-content: center;
+    padding-right: 25px;
+}
+
+.iphone {
+    margin: 0px;
+}
+
+.iphone-item {
+    position: relative;
+    margin-top: -12px;
+}
+
+.about-content {
+    padding-left: 25px;
+    max-width: 575px;
+    top: -12px;
+    position: relative;
+}
+
+.about-title {
+    font-size: 34px;
+    font-weight: bold;
+    color: #525151;
+    line-height: 1.3;
+}
+
+.about-text {
+    font-size: 16px;
+    color: #767272;
+    line-height: 2;
+    margin-bottom: 60px;
+}
+
+.icons {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    flex-flow: column;
+    margin-bottom: 35px;
+}
+
+.icons-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.icons-text {
+    margin: 0px;
+    font-size: 16px;
+    color: #6d6c6c;
+    font-weight: 600;
+}
+
+.icons-img {
+    padding-right: 35px;
+}
+
+.icons-img2 {
+    padding-right: 35px;
+    padding-left: 5px;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+}
+
+.button-play {
+    width: 260px;
+    height: 56px;
+    background: none;
+    border: 2px solid #525252;
+    font-size: 16px;
+    font-weight: 600;
+    color:#525252;
+    cursor: pointer;
+}
+
+.play-img {
+    padding-right: 20px;
+}
+
+.get-app {
+    font-size: 16px;
+    color: #636363 !important;
+    padding-left: 40px;
+    margin: 0px;
+}
